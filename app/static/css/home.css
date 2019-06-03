@@ -1,0 +1,18 @@
+img.icon {
+    width: 50px;
+    margin: 0 20px;
+}
+
+div.item {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.item-check-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
