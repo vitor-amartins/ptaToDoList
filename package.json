@@ -2,10 +2,10 @@
   "name": "desafio_node",
   "version": "1.0.0",
   "description": "Desafio de NodeJS do PTA CITi 2019.1",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "author": "Vitor Martins",
   "license": "MIT",
