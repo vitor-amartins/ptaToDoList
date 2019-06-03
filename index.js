@@ -5,6 +5,6 @@ require('./app/routes/404-route.js')(app);
 
 const port = 3000;
 
-app.listen(port, () => {
+app.listen(process.event.PORT || port, () => {
     console.log(`Listening on port ${port} (or not)`);
 });
