@@ -29,7 +29,6 @@ module.exports = (app) => {
 
     app.post('/', (req, res) => {
         req.body['checked'] = false;
-        console.log(req.body);
         db.ref('/todo-list').push(req.body);
         res.redirect('/');
     });
